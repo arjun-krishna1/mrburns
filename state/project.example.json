@@ -1,0 +1,46 @@
+{
+  "name": "MyApp",
+  "description": "Task Priority System - Add priority levels to tasks",
+  "goals": [
+    "Allow assigning priority (high/medium/low) to any task",
+    "Provide clear visual differentiation between priority levels",
+    "Enable filtering and sorting by priority",
+    "Default new tasks to medium priority"
+  ],
+  "config": {
+    "maxWorkers": 4,
+    "executiveInterval": 10,
+    "tool": "amp",
+    "model": {
+      "executive": "claude-sonnet",
+      "planner": "claude-sonnet",
+      "worker": "claude-sonnet"
+    },
+    "qualityChecks": [
+      "npm run typecheck",
+      "npm run lint",
+      "npm run test"
+    ],
+    "baseBranch": "main"
+  },
+  "areas": [
+    {
+      "name": "database",
+      "path": "src/db/",
+      "description": "Database schema and migrations"
+    },
+    {
+      "name": "backend",
+      "path": "src/api/",
+      "description": "API routes and server actions"
+    },
+    {
+      "name": "frontend",
+      "path": "src/components/",
+      "description": "React components and UI"
+    }
+  ],
+  "createdAt": "2026-01-29T00:00:00Z",
+  "updatedAt": "2026-01-29T00:00:00Z"
+}
+
