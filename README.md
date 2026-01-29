@@ -2,7 +2,7 @@
 
 ![Mr Burns](mrburns.webp)
 
-Mr. Burns is an executive-planner-worker autonomous agent swarm for long-running coding projects. Mr. Burns coordinates Planer aggents (Smithers) and Worker agents (Homer) to tackle complex projects that would overwhelm a single agent.
+Mr. Burns is an executive-planner-worker autonomous agent swarm for long-running coding projects. Mr. Burns coordinates Planer agents (Smithers) and Worker agents (Homer) to tackle complex projects that would overwhelm a single agent.
 
 Separating planning from execution, running workers in parallel, and adding periodic executive oversight allows autonomous agents to scale to very large projects.
 
